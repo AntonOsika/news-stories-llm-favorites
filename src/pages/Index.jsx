@@ -39,7 +39,7 @@ const Index = () => {
   };
 
   return (
-    <VStack spacing={4} p={5}>
+    <VStack spacing={4} p={10}>
       <Heading as="h1" size="xl">
         LLM Stories
       </Heading>

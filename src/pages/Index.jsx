@@ -27,7 +27,7 @@ const Index = () => {
     setFavorites(updatedFavorites);
     localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
     toast({
-      title: favorites.some((fav) => fav.objectID === story.objectID) ? "Removed from favorites" : "Added to favorites",
+      title: favorites.some((fav) => fav.objectID === story.objectID) ? "Removed from favorites" : "Added to favorites WOHOO",
       status: "success",
       duration: 2000,
       isClosable: true,
